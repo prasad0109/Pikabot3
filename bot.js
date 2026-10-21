@@ -23,7 +23,7 @@ server.headersTimeout = 66000;
 // ================= DISCORD =================
 // ================= DISCORD =================
 const DISCORD_TOKEN = process.env.TOKEN;
-const CHANNEL_ID = "1557790899671400630";
+const CHANNEL_ID = "1562509872535310498";
 
 const client = new Client({
   intents: [
@@ -99,7 +99,7 @@ function createBot() {
 
   reconnecting = true;
 
-  const name = process.argv[2] || "Bronzey";
+  const name = process.argv[2] || "PRASAD09";
 
   console.log(`Creating bot... [${name}]`);
 
